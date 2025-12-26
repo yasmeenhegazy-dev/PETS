@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pet Interest Form - Woof</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="form-body">
+  <div class="form-page">
+    <header class="form-header">
+      <a href="index.html" class="back-link">&#8592; Back to pets</a>
+    </header>
+
+    <main class="form-main">
+      <section class="form-box">
+        <div class="form-left">
+          <img class="form-photo" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTxNV0AykwE0qyfdM_3CG9dgYooZuFn9T415qxiELpVksfKNuH3" alt="Brown dog looking up">
+          <div class="form-note">
+            <p>Thank you for your interest in</p>
+            <p class="form-pet-name">Woof.</p>
+          </div>
+        </div>
+
+        <div class="form-right">
+          <a href="index.html" class="form-close">X</a>
+          <form class="pet-form" action="#" method="post">
+            <label class="field">
+              <span>Name</span>
+              <input class="text-input" type="text" name="name" placeholder="Name">
+            </label>
+
+            <label class="field">
+              <span>Email Address</span>
+              <input class="text-input" type="email" name="email" placeholder="Email Address">
+            </label>
+
+            <label class="field">
+              <span>What is the word for a baby dog?</span>
+              <input class="text-input" type="text" name="answer" placeholder="What is the word for a baby dog?">
+            </label>
+
+            <label class="field">
+              <span>Comment (optional)</span>
+              <textarea class="text-input" name="comment" rows="4" placeholder="Comment (optional)"></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button type="submit" class="blue-btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
